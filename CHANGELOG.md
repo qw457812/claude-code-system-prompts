@@ -4,6 +4,13 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+# [2.0.49](https://github.com/Piebald-AI/claude-code-system-prompts/commit/ec960fe987da2dfdb026f733fcd30120ac1a116e)
+
+- **Explore & Plan agents:**
+  - Enhanced READ-ONLY restrictions with explicit bulleted list of prohibited operations
+  - Explore & Plan agents: Added note that file editing tools are not available
+  - Explore & Plan agents: Reformatted Bash tool restrictions for clarity
+
 # [2.0.47](https://github.com/Piebald-AI/claude-code-system-prompts/commit/62075a9489f7edb416970b9e67605c288ce562ac)
 
 - **NEW:** Agent prompt: Multi-Agent Planning Note - instructions for multi-agent planning when `CLAUDE_CODE_PLAN_V2_AGENT_COUNT` > 1
