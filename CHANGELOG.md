@@ -4,6 +4,13 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+# [2.0.55](https://github.com/Piebald-AI/claude-code-system-prompts/commit/20a222010a3c96dc37d9ae323cd40fae75251f9a)
+
+_+121 tokens_
+
+- **NEW:** Added **Agent Prompt: Suggested Prompt Generator** for suggesting a followup propmt after Claude response.  Requires [tweakcc](https://github.com/Piebald-AI/tweakcc) to enable the functionality in Claude Code: run `npx tweakcc@latest --apply` and then `claude` and then send a message.
+- Modified interpolated formatting code in mcp-cli prompt
+
 # [2.0.54](https://github.com/Piebald-AI/claude-code-system-prompts/commit/3bd3a890d18146df0f3699d276133fe92d68e4b5)
 
 _+128 tokens_
